@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bottom bar should  1`] = `
+<div>
+  <div
+    class="MuiBottomNavigation-root mt-auto fixed bottom-0 w-full"
+  >
+    <button
+      class="MuiButtonBase-root MuiBottomNavigationAction-root"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiBottomNavigationAction-wrapper"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+          />
+        </svg>
+        <span
+          class="MuiBottomNavigationAction-label"
+        >
+          首页
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <button
+      class="MuiButtonBase-root MuiBottomNavigationAction-root"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiBottomNavigationAction-wrapper"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"
+          />
+        </svg>
+        <span
+          class="MuiBottomNavigationAction-label"
+        >
+          论坛
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <button
+      class="MuiButtonBase-root MuiBottomNavigationAction-root Mui-selected"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiBottomNavigationAction-wrapper"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+          />
+        </svg>
+        <span
+          class="MuiBottomNavigationAction-label Mui-selected"
+        >
+          我的
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;

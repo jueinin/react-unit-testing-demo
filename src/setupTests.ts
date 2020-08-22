@@ -3,3 +3,10 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom/extend-expect';
+jest.spyOn(console,"error").mockImplementation((msg:string)=>{
+    if (msg.includes(`wrapped in act(...)`)) {
+        return;
+    } else {
+        console.log(msg)
+    }
+})
