@@ -31,3 +31,6 @@ export const useReachBottom = (element: HTMLElement | null, callback?: () => voi
         return () => element.removeEventListener('scroll', listener);
     }, [element]);
 };
+export const isEmail = (value: string) => {
+    return /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test(value);
+};

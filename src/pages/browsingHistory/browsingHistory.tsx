@@ -26,10 +26,9 @@ export default ()=>{
                 url: `/api/removeBrowsingHistory`,
                 method: 'post',
                 data: { id },
-            }).then(prop('data')).then(console.log),
+            }).then(prop('data')),
         {
             onSuccess: (data1) => {
-                console.log('ddd')
                 queryCache.refetchQueries(`/api/browsingHistory`);
                 closeModal();
             },
